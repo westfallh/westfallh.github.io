@@ -1,0 +1,61 @@
+html{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 10%;
+}
+
+.navbar a {
+    color: black;
+    text-align: center;
+    padding: 45px;
+    font-size: 17px;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    padding: 50px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar a {
+     padding: 0px;
+     font-size: 15px;
+    }
+
+    .textbox * {
+    font-size: 20px;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    .navbar a{
+      font-size: 10px;
+    } 
+
+    .textbox * {
+     font-size: 15px;
+    }
+
+
+  }
